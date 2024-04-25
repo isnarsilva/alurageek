@@ -1,0 +1,20 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    background-color: #5300C8;
+    box-shadow: 0px 7px 0.9px 0px #00000040;
+}
+
+.cabecalho_imagem {
+    width: 138px;
+    height: 56px;
+}
+
+.cabecalho_titulo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E5E5E5;
+}
