@@ -1,0 +1,28 @@
+{
+  "produto": [
+    {
+      "id": 1,
+      "nome": "Super Mario Bross",
+      "valor": "$ 100.00",
+      "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/MarioHub_Overview_Mario_sideimg_mario.png"
+    },
+    {
+      "id": 2,
+      "nome": "Batman",
+      "valor": "$ 699.90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/estatua-batman-hush-30-cm-dc-multiverse-statues-mcfarlane-toys-73862/260350.jpg?w=540&h=540&v=no-change&qs=ignore"
+    },
+    {
+      "id": 3,
+      "nome": "Game Boy Classic",
+      "valor": "$ 199.90",
+      "imagem": "https://i.cbc.ca/1.6906082.1689277646!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/1242304587-nintendo-game-boy.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Carro Elétrico",
+      "valor": "$ 120000",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9f8ElwlRz2rJ7kNBYoSyFC2ccOst5Pp3iPOQjtOxOQA&s"
+    }
+  ]
+}

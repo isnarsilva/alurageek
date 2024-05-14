@@ -66,6 +66,8 @@
 }
 
 .principal_produto_lista_detalhe_imagem {
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
     width: 176px;
     height: 174px;
 }
@@ -82,6 +84,10 @@
     font-size: 16px;
     font-weight: 700;
     padding-bottom: 0.5rem;
+}
+
+.principal_produto_lista_detalhe_info_lixeira {
+    cursor: pointer;
 }
 
 .principal_adiconar {
@@ -195,3 +201,67 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 430px) {
+    .cabecalho_imagem {
+        width: 125px;
+        height: 45px;
+    }
+
+    .cabecalho_titulo {
+        font-size: 20px;
+    }
+    
+    .principal {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2rem 0 3.5rem 0;
+    }
+
+    .principal_adiconar {
+        padding: 2.25rem;
+    }
+
+    .principal_adiconar_titulo {
+        padding: 0 0 2.25rem 0;
+    }
+
+    .principal_adiconar_formulario_botao {
+        gap: 0.5rem;
+    }
+
+    .principal_adiconar_formulario_botao_guardar {
+        padding: 0.5rem 2rem;
+    }
+
+    .principal_adiconar_formulario_botao_limpar {
+        padding: 0.5rem 2rem;
+    }
+
+    .principal_produto {
+        padding: 1rem 0;
+    }
+
+    .principal_produto_lista {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, auto);
+        max-width: 400px;
+        overflow-y: auto;
+    }
+
+    .rodape_contanier_imagem {
+        width: 125px;
+        height: 45px;
+    }
+
+    .rodape_contanier_titulo {
+        font-size: 20px;
+    }
+
+    .rodape_dev {
+        font-size: 14px;
+    }
+
+    .rodape_programa {
+        font-size: 14px;
+    }
+}

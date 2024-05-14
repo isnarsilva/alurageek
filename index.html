@@ -8,14 +8,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Press+Start+2P&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Alura Geek</title>
 </head>
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho_imagem" src="./img/coracao.png" alt="">
+        <img class="cabecalho_imagem" src="./assets/img/coracao.png" alt="">
         <p class="cabecalho_titulo">AluraGeek</p>
     </header>
     <main class="principal">
@@ -23,90 +23,16 @@
             <div class="principal_produto_titulo">
                 <p class="principal_produto_titulo_texto">MEUS PRODUTOS</p>
             </div>
-            <div class="principal_produto_lista">
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste01.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Stormtrooper</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste02.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Game Boy Classic</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste01.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Stormtrooper</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste02.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Game Boy Classic</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste01.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Stormtrooper</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste02.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Game Boy Classic</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste01.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Stormtrooper</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste02.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Game Boy Classic</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-                <div class="principal_produto_lista_detalhe">
-                    <img class="principal_produto_lista_detalhe_imagem" src="./img/imagem_teste01.png" alt="">
-                    <p class="principal_produto_lista_detalhe_titulo">Stormtrooper</p>
-                    <div class="principal_produto_lista_detalhe_info">
-                        <p class="principal_produto_lista_detalhe_info_valor">$ 60,00</p>
-                        <i class="fa-regular fa-trash-can principal_produto_lista_detalhe_info_lixeira"></i>
-                    </div>
-                </div>
-            </div>
+            <ul class="principal_produto_lista" data-lista></ul>
         </section>
         <section class="principal_adiconar">
             <p class="principal_adiconar_titulo">ADICIONAR <br>PRODUTO:</p>
-            <form id="adicionarProduto" class="principal_adiconar_formulario">
-                <input type="text" id="nome" name="nome" placeholder="nome..." required>
-                <input type="text" id="valor" name="valor" placeholder="valor..." required>
-                <input type="text" id="imagem" name="imagem" placeholder="imagem..." required>
+            <form id="adicionarProduto" class="principal_adiconar_formulario" data-formulario>
+                <input type="text" id="nome" name="nome" placeholder="nome..." required data-nome>
+                <input type="text" id="valor" name="valor" placeholder="valor..." required data-valor>
+                <input type="text" id="imagem" name="imagem" placeholder="imagem..." required data-imagem>
                 <div class="principal_adiconar_formulario_botao">
-                    <button class="principal_adiconar_formulario_botao_guardar" onclick="guardarProduto()"
-                        type="submit">Guardar</button>
+                    <button class="principal_adiconar_formulario_botao_guardar" type="submit">Guardar</button>
                     <button class="principal_adiconar_formulario_botao_limpar" type="reset">Limpar</button>
                 </div>
             </form>
@@ -114,12 +40,14 @@
     </main>
     <footer class="rodape">
         <div class="rodape_contanier">
-            <img class="rodape_contanier_imagem" src="./img/coracao.png" alt="">
+            <img class="rodape_contanier_imagem" src="./assets/img/coracao.png" alt="">
             <p class="rodape_contanier_titulo">AluraGeek</p>
         </div>
         <p class="rodape_dev">DESENVOLVIDO POR ISNAR SILVA</p>
         <p class="rodape_programa">ALURA LATAM - 2024</p>
     </footer>
+    <script src="./assets/js/mostrarProdutos.js" type="module"></script>
+    <script src="./assets/js/criarProdutos.js" type="module"></script>
 </body>
 
 </html>
