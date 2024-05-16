@@ -2,6 +2,8 @@ import { conectaApi } from "./conectaApi.js"
 
 const formulario = document.querySelector("[data-formulario]")
 
+const campoValor = document.querySelector("[data-valor]")
+
 async function criarProduto(evento) {
     evento.preventDefault()
 
@@ -17,3 +19,18 @@ async function criarProduto(evento) {
 }
 
 formulario.addEventListener("submit", evento => criarProduto(evento))
+
+campoValor.addEventListener('change', function(evento) {
+    const valorInserido = parseFloat(evento.target.value.replace(',', '.'))
+
+    if (!isNaN(valorInserido)) {
+        const valorFormatado = valorInserido.toLocaleString('pt-BR', { minimumFractionDigits: 2})
+
+        evento.target.value = valorFormatado
+
+    } else {
+        evento.target.value = ''
+    }
+
+    
+})

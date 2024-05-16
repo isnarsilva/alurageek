@@ -11,6 +11,18 @@
       "nome": "Game Boy Classic",
       "valor": "$ 199.90",
       "imagem": "https://i.cbc.ca/1.6906082.1689277646!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/1242304587-nintendo-game-boy.jpg"
+    },
+    {
+      "id": "9553",
+      "nome": "KIT DE CHAVES DE FENDA",
+      "valor": "$ 110,00",
+      "imagem": "https://cdn.dooca.store/39545/products/dvfkhphm3ggznpwv11lw2xltvduhlhkj10cb.jpg?v=1669755685"
+    },
+    {
+      "id": "c476",
+      "nome": "PlayStation 5",
+      "valor": "$ 3.500,30",
+      "imagem": "https://m.media-amazon.com/images/I/51VZErxKwkL._AC_UF1000,1000_QL80_.jpg"
     }
   ]
 }
